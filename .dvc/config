@@ -1,0 +1,4 @@
+['remote "s3"']
+    url = s3://test-lfwt/ctr-project-train
+    endpointurl = https://hb.ru-msk.vkcs.cloud
+    region = ru-msk
