@@ -5,6 +5,6 @@ setup(
     packages=find_packages(),
     version="0.1.0",
     description="ctr prediction",
-    author="evgeniimunin",
-    license="MIT",
+    author="evgenimunin",
+    license="MIT"
 )

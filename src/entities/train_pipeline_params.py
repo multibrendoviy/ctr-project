@@ -32,8 +32,8 @@ class TrainingPipelineParams:
     input_preprocessed_data_path: str = field(
         default="../data/raw/sampled_preprocessed_train_50k.csv"
     )
-    use_mlflow: bool = False
-    mlflow_experiment: str = "inference_demo"
+    use_mlflow: bool = field(default=True)
+    # mlflow_experiment: str = "inference_demo"
 
 
 TrainingPipelineParamsSchema = class_schema(TrainingPipelineParams)
